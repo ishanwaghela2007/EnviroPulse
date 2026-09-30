@@ -1,0 +1,45 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+/bin/
+/dist/
+*.out
+
+# Per-service built binaries
+auth/auth
+aqi/aqi
+ai/ai
+
+# Go test artifacts
+*.test
+*.bench
+
+# Go workspace
+go.work
+go.work.sum
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
